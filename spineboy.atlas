@@ -1,0 +1,13 @@
+
+spineboy.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle
+  rotate: false
+  xy: 2, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1

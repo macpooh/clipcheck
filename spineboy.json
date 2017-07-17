@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "YII8L1UMLzVJgAJ7qSIWtZYe4M8", "spine": "3.6.37", "width": 500, "height": 500 },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Clipping", "bone": "root", "attachment": "Clipping" },
+	{ "name": "circle", "bone": "root", "attachment": "circle" }
+],
+"skins": {
+	"default": {
+		"Clipping": {
+			"Clipping": {
+				"type": "clipping",
+				"end": "circle",
+				"vertexCount": 4,
+				"vertices": [ -192.5, -28, -192.5, 357, 191.5, 357, 190.5, -26 ]
+			}
+		},
+		"circle": {
+			"circle": { "y": 178, "width": 500, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"Clipping": {
+					"Clipping": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 182.00003, 0, 0, 0, 0, 1.0E-5, 182.00003 ]
+						},
+						{
+							"time": 0.5,
+							"offset": 1,
+							"vertices": [ 28.00002, 0, 0, 0, 0, 0, 28.00002 ]
+						},
+						{
+							"time": 1,
+							"offset": 1,
+							"vertices": [ 182.00003, 0, 0, 0, 0, 1.0E-5, 182.00003 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}
